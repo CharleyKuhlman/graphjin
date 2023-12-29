@@ -1,0 +1,12 @@
+go 1.18
+
+use (
+	./core
+	./conf
+	./tests
+	./serv
+	./auth
+	./cmd
+	./wasm
+	./plugin/otel
+)

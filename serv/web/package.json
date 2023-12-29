@@ -1,0 +1,30 @@
+{
+  "name": "web-ui",
+  "private": true,
+  "dependencies": {
+    "@graphiql/plugin-explorer": "^0.3.4",
+    "graphiql": "^3.0.5",
+    "graphql": "^16.6.0",
+    "graphql-ws": "^5.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-github-btn": "^1.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "PUBLIC_URL='./' PORT=3001 react-scripts start",
+    "build": "PUBLIC_URL='./' react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8080",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
