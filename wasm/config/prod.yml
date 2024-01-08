@@ -1,5 +1,5 @@
-# Inherit config from this other config file
-# so I only need to overwrite some values
+! Inherit config from this other config file
+  so I only need to overwrite some values
 inherits: dev
 
 # When production mode is 'true' only queries from the queries
@@ -19,3 +19,4 @@ subs_poll_every_seconds: 5
 # limit on all queries where a limit is defined as a query variable.
 # Defaults to 20
 default_limit: 20
+ 
